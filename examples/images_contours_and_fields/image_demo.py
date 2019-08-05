@@ -78,7 +78,7 @@ plt.show()
 # achieving the look you want. Below we'll display the same (small) array,
 # interpolated with three different interpolation methods.
 #
-# The center of the pixel at A[i, j] is plotted at (i+0.5, i+0.5).  If you
+# The center of the pixel at A[i, j] is plotted at (i+0.5, j+0.5).  If you
 # are using interpolation='nearest', the region bounded by (i, j) and
 # (i+1, j+1) will have the same color.  If you are using interpolation,
 # the pixel center will have the same color as it does with nearest, but
